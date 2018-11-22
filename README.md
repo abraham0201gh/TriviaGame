@@ -1,6 +1,6 @@
 # TriviaGame
 
-https://abraham0201gh.github.io/TriviaGame/
+NOTE: Link not currently working (can download files to computer to see working app -- keep file paths as noted in index file)
 
 About this App:  In this trivia game, the user attempts to answer questions about Isaac Newton.  The player will have a limited amount of time to answer all the trivia game questions.
 
