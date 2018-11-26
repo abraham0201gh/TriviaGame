@@ -17,5 +17,5 @@ Benefits of the App include further work with Javascript to determine the game's
 
 - How users can get started with the project:  Watch the YouTube Demo video explaining the game.  Video ink: https://youtu.be/fBIj8YsA9dk. 
 
-- Where users can get help with your project.  YouTube, W3Schools online, and online generally.
+- Where users can get help with this project:  YouTube, W3Schools online, and Stack Overflow.
 
