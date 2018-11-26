@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+        <script src="assets/javascript/app.js"></script>
+
+        <title>Trivia Game</title>
+    </head>
+
+    <body> 
+        <header>
+            <img src="assets/images/IsaacNewton.png" alt="Isaac Newton"/>
+
+            <div class="pg1Centerbox-container">
+
+                <!--first view to start game on own screen-->
+                <h1 id="pageTitleFirst">Newton Today Trivia!</h1>
+                <button id="startGameButton">Start</button>
+                <p id="instructions">You have 45 seconds to answer the trivia questions.</p>
+            </div>                    
+
+            <!--view after game start on separate screen, quiz questions-->
+            <div class="pg2Centerbox-container"> 
+                <h1 id="pageTitleMain">Newton Today Trivia!</h1>
+                <h2 id="timeText">Seconds Remaining:<span id="gameTimer"></span></h2>
+                    <br>
+                    <br>
+                    <br>
+                <h2>At which university did Isaac Newton teach?</h2>
+                    <input type="radio" name="Q1" class="answers" value=1>University of Oxford  
+                    <input type="radio" name="Q1" class="answers" value=2>University of St Andrews  
+                    <input type="radio" name="Q1" class="answers" value=3>University of Cambridge  
+                    <input type="radio" name="Q1" class="answers" value=4>Harvard College
+                    <br>
+                    <br>
+                    <br>
+                <h2>Identify one of Newton's influential books?</h2>
+                    <input type="radio" name="Q2" class="answers" value=1>Origin of Calculus
+                    <input type="radio" name="Q2" class="answers" value=2>Motion Universalis  
+                    <input type="radio" name="Q2" class="answers" value=3>Light and Refraction Revisited 
+                    <input type="radio" name="Q2" class="answers" value=4>The Principia 
+                    <br>
+                    <br>
+                    <br>
+                <h2>Which of the following theories is NOT associated with Newton?</h2>
+                    <input type="radio" name="Q3" class="answers" value=1>Structure of Atoms  
+                    <input type="radio" name="Q3" class="answers" value=2>Study of Optics  
+                    <input type="radio" name="Q3" class="answers" value=3>Law of Universal Gravitation  
+                    <input type="radio" name="Q3" class="answers" value=4>Laws of Motion
+                    <br>
+                    <br>
+                    <br>
+                <h2>In what year did Newton die?</h2>
+                    <input type="radio" name="Q4" class="answers" value=1>1727  
+                    <input type="radio" name="Q4" class="answers" value=2>1697  
+                    <input type="radio" name="Q4" class="answers" value=3>1667  
+                    <input type="radio" name="Q4" class="answers" value=4>He's still alive and singing with Elvis
+                    <br>
+                    <br>
+                    <br>
+                <h2>Where is Newton buried?</h2>
+                    <input type="radio" name="Q5" class="answers" value=1>Woolsthorpe, Lincolnshire  
+                    <input type="radio" name="Q5" class="answers" value=2>Westminster Abbey, London  
+                    <input type="radio" name="Q5" class="answers" value=3>St Paul's Cathedral, London  
+                    <input type="radio" name="Q5" class="answers" value=4>Living people aren't buried
+
+                <button id="doneButton">Done</button>
+            </div>
+                    
+            <!--viewed on separate screen-->    
+            <div class="pg3Centerbox-container"> 
+                <h1 id="pageTitleLast">Newton Today Trivia!</h1>
+                <div id="correct-incorrect">
+                <p id="correct">Correct Answers: 0</p>
+                <p id="incorrect">Incorrect Answers: 0</p>
+                <p id="noAnswer">Not Answered: 0</p>
+                </div>
+            </div>      
+        </header>
+    </body>
+</html>
